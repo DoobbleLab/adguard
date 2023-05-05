@@ -15,4 +15,3 @@ Based on https://github.com/bakito/adguardhome-sync
 
 # Description
 Synchronize AdGuardHome config to replica instances.
-

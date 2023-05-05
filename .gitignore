@@ -4,6 +4,7 @@
 *.secret
 *.log
 workdir/*
+confdir/*
 database/*
-*.yml
-*.yaml
+*network.yml
+*sync.yaml
