@@ -50,7 +50,7 @@ services:
       REPLICA_URL: ${AD2_HTTP}:80
       REPLICA_USERNAME: ${AD_USERNAME}
       REPLICA_PASSWORD: ${AD2_PASS}
-      CRON: '*/1 * * * *' # run every 1 minutes
+      CRON: '*/5 * * * *' # run every 5 minutes
       RUNONSTART: true
       # Configure sync features; by default all features are enabled.
       # FEATURES_GENERALSETTINGS: true
