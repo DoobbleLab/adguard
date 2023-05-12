@@ -47,8 +47,8 @@ jobs:
       - name: Upload Trivy scan results to GitHub Security tab
         uses: github/codeql-action/upload-sarif@v2
         with:
-        category: "adguard-home"
-        sarif_file: 'trivy-adguardhome.sarif'
+         category: "adguard-home"
+         sarif_file: 'trivy-adguardhome.sarif'
 
       - name: Run Trivy vulnerability scanner for container Adguard Sync
         uses: aquasecurity/trivy-action@master
