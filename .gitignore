@@ -8,3 +8,4 @@ confdir/*
 database/*
 *network.yml
 *sync.yaml
+networkcli.sh
